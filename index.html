@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GKS Migration</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Loading Screen -->
+<div id="loader">
+    <div class="loader-content">
+        <div class="loader-logo">GKS Migration</div>
+        <div class="loader-subtitle">بورسیه و مهاجرت تحصیلی به کره جنوبی</div>
+        <div class="loader-spinner"></div>
+    </div>
+</div>
+
+    <!-- Header -->
+    <header>
+
+       <div class="auth-buttons">
+
+    <button onclick="location.href='login-email.html'">
+      ورود  
+    </button>
+
+    <button onclick="location.href='register.html'">
+        ثبت نام
+    </button>
+
+</div>
+
+        <div class="logo">
+            GKS Migration
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> صفحه اصلی</a></li>
+                <li><a href="team.html"><i class="fas fa-users"></i> معرفی تیم</a></li>
+                <li><a href="webinars.html"><i class="fas fa-video"></i> وبینارها</a></li>
+                <li><a href="results.html"><i class="fas fa-clipboard-list"></i> نتایج مشاوره</a></li>
+                <li><a href="blog.html"><i class="fas fa-newspaper"></i> وبلاگ‌ها</a></li>
+                <li><a href="files.html"><i class="fas fa-folder-open"></i> فایل‌های کاربردی</a></li>
+                <li><a href="contact.html"><i class="fas fa-phone"></i> ارتباط با ما</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main -->
+
+        <main class="main-content">
+
+            <section class="slider">
+
+                <img src="kor.jpg" class="slide active">
+                <img src="still.jpeg" class="slide">
+                <img src="korii.jpg" class="slide">
+                <img src="South Korea.jpeg" class="slide">
+                <img src="kor.jpg" class="slide">
+                <img src="South.jpeg" class="slide">
+                <img src="IG_ @_woooaoo_k.jpeg" class="slide">
+
+
+
+                <div class="slider-overlay">
+                    <h3>بورسیه و مهاجرت تحصیلی به کره جنوبی</h3>
+                </div>
+            </section>
+            <!-- بخش آمار -->
+<div class="stats">
+    <div class="stat-card">
+        <i class="fas fa-user-graduate"></i>
+        <h3>+200</h3>
+        <p>دانشجوی موفق</p>
+    </div>
+    <div class="stat-card">
+        <i class="fas fa-university"></i>
+        <h3>+30</h3>
+        <p>دانشگاه کره</p>
+    </div>
+    <div class="stat-card">
+        <i class="fas fa-star"></i>
+        <h3>8</h3>
+        <p>سال تجربه</p>
+    </div>
+    <div class="stat-card">
+        <i class="fas fa-trophy"></i>
+        <h3>%95</h3>
+        <p>نرخ موفقیت</p>
+    </div>
+</div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+<script>
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        const loader = document.getElementById('loader');
+        loader.style.opacity = '0';
+        setTimeout(() => loader.style.display = 'none', 500);
+    }, 1500);
+});
+</script>
+<footer style="background:#0b4cc4; color:white; text-align:center; padding:18px; font-size:14px;">
+    ©  2026 GKS Guide | All Rights Reserved  
+  Developed by Hajar Sheikhzadeh
+</footer>
+<!-- دکمه شناور تلگرام -->
+<a href="https://t.me/kgsp_iran" target="_blank" class="float-telegram">
+    <i class="fab fa-telegram"></i>
+</a>
+</body>
+</html>
